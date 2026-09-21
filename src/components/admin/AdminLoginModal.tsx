@@ -102,17 +102,7 @@ export const AdminLoginModal: React.FC<AdminLoginModalProps> = ({
             />
           </div>
 
-          <div className="p-3 bg-slate-50 rounded-xl border border-slate-200 text-xs text-slate-600">
-            <div className="font-semibold text-slate-800 mb-1 flex items-center space-x-1.5">
-              <KeyRound className="w-3.5 h-3.5 text-emerald-600" />
-              <span>Kredensial Default:</span>
-            </div>
-            <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[11px] font-mono">
-              <span>User: <strong className="text-slate-900">admin</strong></span>
-              <span>Pass/PIN: <strong className="text-slate-900">123456</strong> atau <strong className="text-slate-900">akreditasi305</strong></span>
-            </div>
-          </div>
-
+         
           <div className="pt-2 space-y-2">
             <button
               type="submit"
